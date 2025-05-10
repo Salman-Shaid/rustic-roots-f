@@ -87,7 +87,7 @@ const Navbar = () => {
 
         {/* Right: Theme Toggle & User */}
         <div className="flex items-center gap-4">
-          {/* Theme Switch */}
+          {/* Theme Switch toggle */}
           <label className="cursor-pointer text-2xl">
             <input
               type="checkbox"
