@@ -56,7 +56,7 @@ const FeaturedDishes = () => {
                 }}
             >
                 <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-                <h1 className="hover:text-red-500 relative text-6xl font-bold">Our Featured Dishes</h1>
+                <h1 className="hover:text-red-700 relative text-6xl font-bold">Our Featured Dishes</h1>
             </div>
 
             {/* Swiper Carousel */}
@@ -77,9 +77,8 @@ const FeaturedDishes = () => {
                 {dishes.map((dish) => (
                     <SwiperSlide key={dish.id}>
                         <div
-                            className={`shadow-lg rounded-lg overflow-hidden flex flex-col justify-between h-[480px] hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-2 mb-14 ${
-                                theme === "dark" ? "bg-gray-800 text-white" : "bg-white text-gray-800"
-                            }`}
+                            className={`shadow-lg rounded-lg overflow-hidden flex flex-col justify-between h-[480px] hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-2 mb-14 ${theme === "dark" ? "bg-gray-800 text-white" : "bg-white text-gray-800"
+                                }`}
                         >
                             {/* Image */}
                             <img src={dish.image} alt={dish.name} className="w-full h-64 object-cover" />
@@ -92,9 +91,12 @@ const FeaturedDishes = () => {
 
                             {/* Button */}
                             <NavLink to="/allFoods">
-                                <button className="btn btn-success bg-green-700 rounded-t-none btn-md w-full text-white">
+                                <button
+                                    className="px-6 py-3 rounded-t-none text-white font-semibold shadow-lg bg-gradient-to-r from-green-500 via-teal-500 to-blue-500 hover:scale-105 hover:shadow-xl transition-all duration-300 ease-in-out w-full"
+                                >
                                     View More...
                                 </button>
+
                             </NavLink>
                         </div>
                     </SwiperSlide>

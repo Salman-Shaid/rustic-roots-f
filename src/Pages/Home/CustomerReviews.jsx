@@ -81,7 +81,7 @@ const CustomerReviews = () => {
     };
 
     return (
-        <div className={`container mx-auto px-4 py-10 ${theme === 'dark' ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-900'}`}>
+        <div className={`container rounded-xl mx-auto px-4 py-10 ${theme === 'dark' ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-900'}`}>
             <h2 className='text-3xl md:text-5xl font-bold mb-8 text-center'>Our Customer Reviews</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-10 items-center'>
                 <div className='flex justify-center'>
@@ -125,7 +125,7 @@ const CustomerReviews = () => {
             </div>
 
             {/* Review Form */}
-            <div className={`mt-10 p-6 shadow-lg rounded-lg ${theme === 'dark' ? 'bg-gray-800 text-gray-300' : 'bg-white text-gray-900'}`}>
+            <div className={`mt-10 p-6 mx-8 shadow-lg rounded-lg ${theme === 'dark' ? 'bg-gray-800 text-gray-300' : 'bg-white text-gray-900'}`}>
                 <h3 className='text-xl font-semibold mb-4'>Add Your Review</h3>
                 <form onSubmit={handleSubmit}>
                     <div className='mb-4'>
@@ -140,11 +140,12 @@ const CustomerReviews = () => {
                         ></textarea>
                     </div>
                     <button
-                        type='submit'
-                        className='bg-green-600 hover:bg-green-700 hover:rounded-full text-white py-2 px-4 rounded-md transition duration-300 w-full sm:w-auto'
-                    >
-                        Submit Review
-                    </button>
+  type='submit'
+  className='px-6 py-3 rounded-full text-white font-semibold shadow-lg bg-gradient-to-r from-green-500 via-teal-500 to-blue-500 hover:scale-105 hover:shadow-xl transition-all duration-300 w-full sm:w-auto'
+>
+  Submit Review
+</button>
+
                 </form>
             </div>
 

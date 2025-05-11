@@ -67,7 +67,12 @@ const BannerSlide = ({ image, title, description, buttonText, buttonLink, textCo
         <Fade bottom delay={300}><p className="p-6 text-gray-600">{description}</p></Fade>
         <Fade bottom delay={600}>
           <NavLink to={buttonLink}>
-            <button className="btn btn-success text-white hover:bg-[#15803D] hover:rounded-3xl">{buttonText}</button>
+            <button
+  className="px-6 py-2 rounded-full text-white font-semibold shadow-lg bg-gradient-to-r from-green-500 via-teal-500 to-blue-500 hover:scale-105 hover:shadow-lg transition-all duration-300 ease-in-out"
+>
+  {buttonText}
+</button>
+
           </NavLink>
         </Fade>
       </div>

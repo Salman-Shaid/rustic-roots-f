@@ -7,9 +7,9 @@ const HotFoodCard = ({ food }) => {
   return (
     <div className={`${theme === "dark" ? "bg-gray-500 text-white" : " text-black"} border border-gray-400 p-5 rounded-2xl shadow-xl hover:shadow-4xl transition-shadow duration-300 `}>
       <div className="relative">
-        <img 
-          src={food.foodImage} 
-          alt={food.foodName} 
+        <img
+          src={food.foodImage}
+          alt={food.foodName}
           className="w-full h-56 object-cover rounded-lg"
         />
         <span className="absolute top-3 left-3 bg-green-600 text-white text-xs px-3 py-1 rounded-full">
@@ -25,9 +25,12 @@ const HotFoodCard = ({ food }) => {
 
       <div className="mt-5">
         <Link to={`/foods/${food._id}`}>
-          <button className=" bg-green-600 text-white py-2 px-6 rounded-lg hover:rounded-full text-lg font-medium hover:bg-green-700 transition-all">
+          <button
+            className="px-6 py-2 rounded-full text-white font-semibold shadow-lg bg-gradient-to-r from-green-500 via-teal-500 to-blue-500 hover:scale-105 hover:shadow-xl transition-all duration-300 ease-in-out text-lg"
+          >
             View Details
           </button>
+
         </Link>
       </div>
     </div>

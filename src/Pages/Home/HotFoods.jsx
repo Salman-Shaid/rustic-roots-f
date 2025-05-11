@@ -40,7 +40,7 @@ const HotFoods = () => {
                 }}
             >
                 <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-                <h1 className="hover:text-red-500 relative text-6xl font-bold">Our Top Selling Foods</h1>
+                <h1 className="hover:text-red-700 relative text-6xl font-bold">Our Top Selling Foods</h1>
             </div>
 
             {/* Content */}
