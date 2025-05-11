@@ -6,6 +6,7 @@ import FeaturedDishes from './FeaturedDishes';
 import CustomerReviews from './CustomerReviews';
 import FAQ from './FAQ';
 import Teams from './Teams';
+import OfferCountdown from './OfferCountdown';
 
 const Home = () => {
     const { theme, toggleTheme } = useContext(ThemeContext); 
@@ -41,6 +42,10 @@ const Home = () => {
                 <div className="divider"></div>
                 <section>
                     <FAQ></FAQ>
+                </section>
+
+                <section>
+                    <OfferCountdown></OfferCountdown>
                 </section>
 
                 

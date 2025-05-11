@@ -45,7 +45,7 @@ const FeaturedDishes = () => {
     ];
 
     return (
-        <div className={`container mx-auto border rounded-xl px-4 pb-5 ${theme === "dark" ? "bg-gray-900 text-white" : "bg-white text-gray-800"
+        <div   className={`container mx-auto border rounded-xl px-4 pb-5 ${theme === "dark" ? "bg-gray-900 text-white" : "bg-white text-gray-800"
                                 }`}>
             {/* Section Header */}
             <div
