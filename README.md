@@ -1,64 +1,43 @@
-Rustic Roots – Restaurant Management System
+# 🍽️ Rustic Roots – Restaurant Management System
 
-This is the client-side application for the **Rustic Roots** restaurant management system.A responsive, feature-rich restaurant management web app that allows users to explore food items, manage orders, and handle food operations seamlessly. Built with the MERN stack and styled with Tailwind CSS + DaisyUI.
-
-## Live Site Link : https://assignment11-6503f.web.app/
+A responsive, feature-rich restaurant management web app that allows users to explore food items, manage orders, and handle food operations seamlessly. Built with the MERN stack and styled with Tailwind CSS + DaisyUI.
+live link: https://assignment11-6503f.web.app/
 ---
 
-🚀 Project Overview
+##  Project Overview
+
 Rustic Roots is a full-stack web application for restaurant management. Users can browse all food items, add new dishes, manage their own listings, and place orders. Admins and customers have different roles and access levels.
 
-✨ Features
-🔐 User Authentication (Firebase)
+---
 
-🧾 Add, Update & Delete Foods
+## ✨ Features
 
-📦 Order Management by Users
+-  **User Authentication** with Firebase
+-  **Add, Update & Delete Foods**
+-  **Order Management** by Users
+-  **Theme Toggle** (Dark / Light)
+-  **Filter & Search Foods**
+-  **Fully Responsive Design**
+-  **Role-based Dashboard** (Customer / Admin / Deliveryman)
 
-🌗 Theme Toggle (Dark / Light)
+---
 
-🔍 Filter & Search Foods
+## 🛠️ Tech Stack
 
-📱 Fully Responsive Design
+### Frontend:
+- React.js
+- Tailwind CSS
+- DaisyUI
+- React Router DOM
+- React Icons
+- Lottie
+- Firebase Authentication
 
+### Backend:
+- Node.js
+- Express.js
+- MongoDB (if applicable)
+- JWT (if applicable)
 
-🛠️ Tech Stack
-Frontend:
-React.js
-
-Tailwind CSS
-
-DaisyUI
-
-React Router DOM
-
-React Icons
-
-Lottie
-
-Firebase Authentication
-
-Backend:
-Node.js
-
-Express.js
-
-MongoDB (if applicable)
-
-JWT (if applicable)
-
-
-
-
-
-<div align="center">
-  <img  src="https://github.com/Salman-Shaid/Rustic-Roots-resturent/blob/main/rustic-roots-client/src/assets/Faq/Screenshot%202025-02-05%20180541.png"  />
-  <img  src="https://github.com/Salman-Shaid/Rustic-Roots-resturent/blob/main/rustic-roots-client/src/assets/Faq/Screenshot%202025-02-05%20180605.png"  />
-  <img  src="https://github.com/Salman-Shaid/Rustic-Roots-resturent/blob/main/rustic-roots-client/src/assets/Faq/Screenshot%202025-02-05%20180631.png"  />
-  <img  src="https://github.com/Salman-Shaid/Rustic-Roots-resturent/blob/main/rustic-roots-client/src/assets/Faq/Screenshot%202025-02-05%20180659.png"  />
- 
-</div>
-
-
-
+---
 
