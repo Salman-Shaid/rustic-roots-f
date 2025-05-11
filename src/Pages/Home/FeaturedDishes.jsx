@@ -45,14 +45,16 @@ const FeaturedDishes = () => {
     ];
 
     return (
-        <div className="container mx-auto border rounded-xl px-4 pb-5">
+        <div className={`container mx-auto border rounded-xl px-4 pb-5 ${theme === "dark" ? "bg-gray-900 text-white" : "bg-white text-gray-800"
+                                }`}>
             {/* Section Header */}
             <div
-                className="relative   h-60 flex items-center justify-center text-white mt-5"
+                className="relative mb-12  h-60 flex items-center justify-center text-white mt-5 "
                 style={{
                     backgroundImage: `url(${imageBackground2})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
+            
                 }}
             >
                 <div className="absolute inset-0 bg-black bg-opacity-40"></div>
@@ -77,7 +79,7 @@ const FeaturedDishes = () => {
                 {dishes.map((dish) => (
                     <SwiperSlide key={dish.id}>
                         <div
-                            className={`shadow-lg rounded-lg overflow-hidden flex flex-col justify-between h-[480px] hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-2 mb-14 ${theme === "dark" ? "bg-gray-800 text-white" : "bg-white text-gray-800"
+                            className={`shadow-lg rounded-lg mt-2 overflow-hidden flex flex-col justify-between h-[480px] hover:shadow-2xl border transition-shadow duration-300 transform hover:-translate-y-2 mb-14 ${theme === "dark" ? "bg-gray-700 text-white" : "bg-white text-gray-800"
                                 }`}
                         >
                             {/* Image */}

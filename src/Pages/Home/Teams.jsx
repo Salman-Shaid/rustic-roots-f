@@ -46,7 +46,7 @@ const chefs = [
 const Teams = () => {
     const { theme } = useContext(ThemeContext);
     return (
-        <section className="py-1 md:py-20  text-gray-900">
+        <section className=" md:py-20 mb-8  text-gray-900">
             <div className=''>
                 <div className={`max-w-screen-2xl bg-base-200 mx-auto px-4  sm:px-6 lg:px-8 text-center rounded-xl ${theme === 'dark' ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-900'}`}>
                     <h2 className=" lg:text-5xl  pt-10 md:text-3xl font-bold mb-4">Meet Our World-Class Chefs</h2>

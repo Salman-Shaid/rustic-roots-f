@@ -81,7 +81,7 @@ const CustomerReviews = () => {
     };
 
     return (
-        <div className={`container rounded-xl mx-auto px-4 py-10 ${theme === 'dark' ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-900'}`}>
+        <div className={`container rounded-xl mx-auto px-4 py-10 mb-16 ${theme === 'dark' ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-900'}`}>
             <h2 className='text-3xl md:text-5xl font-bold mb-8 text-center'>Our Customer Reviews</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-10 items-center'>
                 <div className='flex justify-center'>

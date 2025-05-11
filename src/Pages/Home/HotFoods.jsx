@@ -62,9 +62,10 @@ const HotFoods = () => {
             {/* See All Button */}
             <div className="mt-8 mb-8 text-center">
                 <Link to="/allFoods">
-                    <button className="btn  btn-wide btn-outline btn-success   hover:bg-green-700 text-white py-4 px-10 rounded-full transition duration-300">
-                        See All
+                    <button className="w-full btn btn-wide btn-outline font-bold btn-success hover:bg-gradient-to-r from-green-500 via-teal-500 to-blue-500 text-white py-4 px-10 rounded-full transition duration-300">
+                        See All...
                     </button>
+
                 </Link>
             </div>
         </div>
