@@ -38,7 +38,7 @@ const Navbar = () => {
   const navLinkClass = ({ isActive }) =>
     `px-3 py-1 rounded-md transition-all duration-300 focus:outline-none ${isActive
       ? "text-red-600 font-semibold border-b-2 border-red-600"
-      : "text-white hover:text-red-400 hover:border-b-2 border-red-600"
+      : "text-white hover:text-red-600 hover:border-b-2 border-red-600"
     }`;
 
 

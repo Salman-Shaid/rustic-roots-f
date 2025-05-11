@@ -13,7 +13,6 @@ createRoot(document.getElementById('root')).render(
       
     <AuthProvider routes={<RouterProvider router={Router}></RouterProvider>} />
     
-
     </ThemeProvider>
     
   </StrictMode>
