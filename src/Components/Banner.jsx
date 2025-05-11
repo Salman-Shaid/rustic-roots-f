@@ -12,6 +12,7 @@ import image3 from '../assets/banner/3.jpg';
 import titleLottieAnimation from '../assets/animation/Animation - 1735144071761.json';
 import leftArrowAnimation from '../assets/animation/Animation - 1733653381871.json';
 import rightArrowAnimation from '../assets/animation/Animation - 1733653518186.json';
+import { FaHandPointer } from 'react-icons/fa';
 
 //  Reusable Lottie config
 const getLottieOptions = (animationData) => ({
@@ -67,11 +68,15 @@ const BannerSlide = ({ image, title, description, buttonText, buttonLink, textCo
         <Fade bottom delay={300}><p className="p-6 text-gray-600">{description}</p></Fade>
         <Fade bottom delay={600}>
           <NavLink to={buttonLink}>
-            <button
-  className="px-6 py-2 rounded-full text-white font-semibold shadow-lg bg-gradient-to-r from-green-500 via-teal-500 to-blue-500 hover:scale-105 hover:shadow-lg transition-all duration-300 ease-in-out"
->
-  {buttonText}
-</button>
+           <div className="flex justify-center">
+  <button
+    className="flex items-center gap-3 px-6 py-3 rounded-full text-white font-semibold shadow-lg bg-gradient-to-r from-green-500 via-teal-500 to-blue-500 hover:scale-105 hover:shadow-xl transition-all duration-300 ease-in-out"
+  >
+    <FaHandPointer className="text-xl" />
+    <span>{buttonText}</span>
+  </button>
+</div>
+
 
           </NavLink>
         </Fade>

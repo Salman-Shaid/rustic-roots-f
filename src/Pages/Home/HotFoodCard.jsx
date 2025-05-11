@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { ThemeContext } from "../../Providers/ThemeProvider";
 import { useContext } from "react";
+import { FaHandPointer } from "react-icons/fa";
 
 const HotFoodCard = ({ food }) => {
   const theme = useContext(ThemeContext);
@@ -26,10 +27,12 @@ const HotFoodCard = ({ food }) => {
       <div className="mt-5">
         <Link to={`/foods/${food._id}`}>
           <button
-            className="px-6 py-2 rounded-full text-white font-semibold shadow-lg bg-gradient-to-r from-green-500 via-teal-500 to-blue-500 hover:scale-105 hover:shadow-xl transition-all duration-300 ease-in-out text-lg"
+            className="flex items-center gap-3 px-6 py-2 rounded-full text-white font-semibold shadow-lg bg-gradient-to-r from-green-500 via-teal-500 to-blue-500 hover:scale-105 hover:shadow-xl transition-all duration-300 ease-in-out text-lg"
           >
-            View Details
+            <FaHandPointer className="text-xl" />  {/* Add your desired icon here */}
+            <span>View Details</span>
           </button>
+
 
         </Link>
       </div>

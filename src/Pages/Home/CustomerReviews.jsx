@@ -4,7 +4,7 @@ import { ThemeContext } from '../../providers/ThemeProvider';
 import { authContext } from '../../providers/AuthProvider';  // Import AuthContext
 import reviewAnimation from '../../assets/animation/Animation - 1735143955504.json';
 import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';  // Make sure to import CSS for Toastify
+import 'react-toastify/dist/ReactToastify.css'; 
 
 const CustomerReviews = () => {
     const { theme } = useContext(ThemeContext);
@@ -93,8 +93,8 @@ const CustomerReviews = () => {
                             <div
                                 key={idx}
                                 className={`p-6 rounded-2xl border border-transparent hover:border-green-500 shadow-md transition duration-300 ease-in-out transform hover:scale-[1.02] ${theme === 'dark'
-                                        ? 'bg-gray-800 text-gray-300 hover:shadow-green-900'
-                                        : 'bg-white text-gray-900 hover:shadow-green-200'
+                                    ? 'bg-gray-800 text-gray-300 hover:shadow-green-900'
+                                    : 'bg-white text-gray-900 hover:shadow-green-200'
                                     }`}
                             >
                                 <div className='flex items-center gap-3'>
@@ -114,7 +114,7 @@ const CustomerReviews = () => {
                                 <p className='text-base italic text-gray-600 dark:text-gray-300 leading-relaxed mb-4'>
                                     “{reviewItem.review}”
                                 </p>
-                                
+
                             </div>
                         ))}
                     </div>
@@ -125,7 +125,7 @@ const CustomerReviews = () => {
             </div>
 
             {/* Review Form */}
-            <div className={`mt-10 p-6 mx-8 shadow-lg rounded-lg ${theme === 'dark' ? 'bg-gray-800 text-gray-300' : 'bg-white text-gray-900'}`}>
+            <div className={`mt-10 p-6 mx-8 mb-2 shadow-lg rounded-lg ${theme === 'dark' ? 'bg-gray-800 text-gray-300' : 'bg-white text-gray-900'}`}>
                 <h3 className='text-xl font-semibold mb-4'>Add Your Review</h3>
                 <form onSubmit={handleSubmit}>
                     <div className='mb-4'>
@@ -140,11 +140,11 @@ const CustomerReviews = () => {
                         ></textarea>
                     </div>
                     <button
-  type='submit'
-  className='px-6 py-3 rounded-full text-white font-semibold shadow-lg bg-gradient-to-r from-green-500 via-teal-500 to-blue-500 hover:scale-105 hover:shadow-xl transition-all duration-300 w-full sm:w-auto'
->
-  Submit Review
-</button>
+                        type='submit'
+                        className='px-6 py-3 rounded-full text-white font-semibold shadow-lg bg-gradient-to-r from-green-500 via-teal-500 to-blue-500 hover:scale-105 hover:shadow-xl transition-all duration-300 w-full sm:w-auto'
+                    >
+                        Submit Review
+                    </button>
 
                 </form>
             </div>

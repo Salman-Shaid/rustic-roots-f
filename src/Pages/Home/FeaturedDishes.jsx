@@ -45,10 +45,10 @@ const FeaturedDishes = () => {
     ];
 
     return (
-        <div className="container mx-auto border rounded-xl my-20 px-4 pb-5">
+        <div className="container mx-auto border rounded-xl px-4 pb-5">
             {/* Section Header */}
             <div
-                className="relative  mb-16 h-60 flex items-center justify-center text-white mt-5"
+                className="relative   h-60 flex items-center justify-center text-white mt-5"
                 style={{
                     backgroundImage: `url(${imageBackground2})`,
                     backgroundSize: "cover",

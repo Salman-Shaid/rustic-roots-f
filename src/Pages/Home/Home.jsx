@@ -5,6 +5,7 @@ import HotFoods from './HotFoods';
 import FeaturedDishes from './FeaturedDishes';
 import CustomerReviews from './CustomerReviews';
 import FAQ from './FAQ';
+import Teams from './Teams';
 
 const Home = () => {
     const { theme, toggleTheme } = useContext(ThemeContext); 
@@ -28,6 +29,10 @@ const Home = () => {
                 </section>
                 <div className="divider"></div>
 
+                <section>
+                    <Teams></Teams>
+                </section>
+
                 <section className='grid '>
                     <div>
                         <CustomerReviews></CustomerReviews>
@@ -37,9 +42,6 @@ const Home = () => {
                 <section>
                     <FAQ></FAQ>
                 </section>
-                        
-                    
-                    
 
                 
 
