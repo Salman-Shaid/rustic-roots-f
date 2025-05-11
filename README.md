@@ -18,7 +18,6 @@ Rustic Roots is a full-stack web application for restaurant management. Users ca
 -  **Theme Toggle** (Dark / Light)
 -  **Filter & Search Foods**
 -  **Fully Responsive Design**
--  **Role-based Dashboard** (Customer / Admin / Deliveryman)
 
 ---
 
@@ -36,8 +35,14 @@ Rustic Roots is a full-stack web application for restaurant management. Users ca
 ### Backend:
 - Node.js
 - Express.js
-- MongoDB (if applicable)
-- JWT (if applicable)
+- MongoDB 
 
 ---
 
+<div align="center">
+  <img  src="https://github.com/Salman-Shaid/Rustic-Roots-resturent/blob/main/rustic-roots-client/src/assets/Faq/Screenshot%202025-02-05%20180541.png"  />
+  <img  src="https://github.com/Salman-Shaid/Rustic-Roots-resturent/blob/main/rustic-roots-client/src/assets/Faq/Screenshot%202025-02-05%20180605.png"  />
+  <img  src="https://github.com/Salman-Shaid/Rustic-Roots-resturent/blob/main/rustic-roots-client/src/assets/Faq/Screenshot%202025-02-05%20180631.png"  />
+  <img  src="https://github.com/Salman-Shaid/Rustic-Roots-resturent/blob/main/rustic-roots-client/src/assets/Faq/Screenshot%202025-02-05%20180659.png"  />
+ 
+</div>
