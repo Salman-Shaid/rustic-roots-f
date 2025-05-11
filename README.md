@@ -1,40 +1,53 @@
-# Rustic Roots 
+Rustic Roots – Restaurant Management System
 
-This is the client-side application for the **Rustic Roots** restaurant management system.
+This is the client-side application for the **Rustic Roots** restaurant management system.A responsive, feature-rich restaurant management web app that allows users to explore food items, manage orders, and handle food operations seamlessly. Built with the MERN stack and styled with Tailwind CSS + DaisyUI.
 
 ## Live Site Link : https://assignment11-6503f.web.app/
 ---
 
-## Features
+🚀 Project Overview
+Rustic Roots is a full-stack web application for restaurant management. Users can browse all food items, add new dishes, manage their own listings, and place orders. Admins and customers have different roles and access levels.
+
+✨ Features
+🔐 User Authentication (Firebase)
+
+🧾 Add, Update & Delete Foods
+
+📦 Order Management by Users
+
+🌗 Theme Toggle (Dark / Light)
+
+🔍 Filter & Search Foods
+
+📱 Fully Responsive Design
 
 
-- **Food Management**:
-  - Display food items in a responsive grid layout.
-  - View details for individual food items.
-  - Add, update, and delete food entries (restricted to admin or specific users).
+🛠️ Tech Stack
+Frontend:
+React.js
 
-- **Order Management**:
-  - Place orders for food items.
-  - View my order .
-  - Show order by user email.
+Tailwind CSS
 
-- **Dynamic Features**:
-  - Theme toggle (Dark/Light mode).
-  - Pagination and filtering for food items.
+DaisyUI
+
+React Router DOM
+
+React Icons
+
+Lottie
+
+Firebase Authentication
+
+Backend:
+Node.js
+
+Express.js
+
+MongoDB (if applicable)
+
+JWT (if applicable)
 
 
-- **Responsive Design**:
-  - Optimized for desktop, tablet, and mobile devices.
-
----
-
-## Tech Stack
-
-- **Frontend**: React.js
-- **State Management**: Context API
-- **Styling**: Tailwind CSS, React Icons and DaisyUi.
-- **Routing**: React Router
-- **Backend **: Node JS 
 
 
 
