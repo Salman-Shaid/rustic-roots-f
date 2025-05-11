@@ -8,7 +8,7 @@ live link: https://assignment11-6503f.web.app/
 
 ##  Project Overview
 
-Rustic Roots is a full-stack web application for restaurant management. Users can browse all food items, add new dishes, manage their own listings, and place orders. Admins and customers have different roles and access levels.
+Rustic Roots is a full-stack web application for restaurant management. Users can browse all food items, manage their own listings, and place orders.Admin can add new food items. Admins and customers have different roles and access levels.
 
 ---
 
