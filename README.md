@@ -1,7 +1,9 @@
 # 🍽️ Rustic Roots – Restaurant Management System
 
 A responsive, feature-rich restaurant management web app that allows users to explore food items, manage orders, and handle food operations seamlessly. Built with the MERN stack and styled with Tailwind CSS + DaisyUI.
+---
 live link: https://assignment11-6503f.web.app/
+
 ---
 
 ##  Project Overview
