@@ -49,7 +49,10 @@ const Teams = () => {
         <section className=" md:py-20 mb-8  text-gray-900">
             <div className=''>
                 <div className={`max-w-screen-2xl bg-base-200 mx-auto px-4  sm:px-6 lg:px-8 text-center rounded-xl ${theme === 'dark' ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-900'}`}>
-                    <h2 className=" lg:text-5xl  pt-10 md:text-3xl font-bold mb-4">Meet Our World-Class Chefs</h2>
+                    <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold pt-10 mb-4 text-center">
+                        Meet Our World-Class Chefs
+                    </h2>
+
                     <p className="text-base md:text-lg mb-10 max-w-2xl mx-auto">
                         Behind every exquisite dish is a passionate chef with a story, skill, and love for the art of cooking.
                         Our culinary team is composed of dedicated professionals who blend tradition with innovation to bring you unforgettable flavors.

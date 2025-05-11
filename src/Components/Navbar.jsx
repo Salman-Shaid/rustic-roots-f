@@ -1,10 +1,11 @@
 import React, { useContext, useEffect, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
-import { authContext } from "../Providers/AuthProvider";
+
 import { ThemeContext } from "../Providers/ThemeProvider";
 import logo from "../assets/logo/logo.png";
 import { FaSun, FaMoon } from "react-icons/fa";
 import { IoMdLogOut } from "react-icons/io";
+import { authContext } from "../providers/AuthProvider";
 const Navbar = () => {
   const { user, handleLogout } = useContext(authContext);
   const { theme, toggleTheme } = useContext(ThemeContext);
@@ -37,8 +38,8 @@ const Navbar = () => {
 
   const navLinkClass = ({ isActive }) =>
     `px-3 py-1 rounded-md transition-all duration-300 focus:outline-none ${isActive
-      ? "text-red-600 font-semibold border-b-2 border-red-600"
-      : "text-white hover:text-red-600 hover:border-b-2 border-red-600"
+      ? "text-orange-600 font-semibold border-b-2 border-orange-600"
+      : "text-white hover:text-orange-600 hover:border-b-2 border-orange-600"
     }`;
 
 
@@ -119,7 +120,7 @@ const Navbar = () => {
                 <li>
                   <button
                     onClick={logout}
-                    className="text-red-600 mt-1 px-4 py-2 hover:bg-red-500 hover:text-white rounded-full font-bold"
+                    className="text-red-600 mt-1 px-4 py-2 hover:bg-red-600 hover:text-white rounded-full font-bold"
                   >
                     <IoMdLogOut />Logout
                   </button>

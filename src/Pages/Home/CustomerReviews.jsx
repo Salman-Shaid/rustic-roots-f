@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import Lottie from 'react-lottie';
-import { ThemeContext } from '../../providers/ThemeProvider';
+import { ThemeContext } from '../../Providers/ThemeProvider';
 import { authContext } from '../../providers/AuthProvider';  // Import AuthContext
 import reviewAnimation from '../../assets/animation/Animation - 1735143955504.json';
 import { ToastContainer, toast } from 'react-toastify';
@@ -15,7 +15,7 @@ const CustomerReviews = () => {
 
     // Load reviews from database
     useEffect(() => {
-        fetch('http://localhost:5000/reviews') // replace with your backend URL
+        fetch('https://rustic-roots-server.vercel.app/reviews') // replace with your backend URL
             .then(res => res.json())
             .then(data => setReviews(data))
             .catch(err => console.error('Error fetching reviews:', err));
@@ -43,7 +43,7 @@ const CustomerReviews = () => {
         };
 
         try {
-            const res = await fetch('http://localhost:5000/reviews', {
+            const res = await fetch('https://rustic-roots-server.vercel.app/reviews', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(newReview),

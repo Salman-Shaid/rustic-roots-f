@@ -16,7 +16,7 @@ const AllFoods = () => {
         setError(null);
         try {
             const response = await fetch(
-                `http://localhost:5000/foods?name=${encodeURIComponent(query)}&sort=${sort}`
+                `https://rustic-roots-server.vercel.app/foods?name=${encodeURIComponent(query)}&sort=${sort}`
             );
             if (!response.ok) {
                 throw new Error('Failed to fetch foods');
